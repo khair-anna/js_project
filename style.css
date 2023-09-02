@@ -1,0 +1,92 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url('https://e0.pxfuel.com/wallpapers/575/365/desktop-wallpaper-star-wars-space-background-high-quality.jpg');
+}
+body {
+    margin: 0 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+#character_header {
+    margin-top: 70px;
+    text-align: center;
+    color: #b2b2b2;
+    font-size: 48px;
+}
+.character_item {
+    height: 150px;
+    background-color: #333333;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.character_item:hover {
+    background-color: #212121;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 10px 10px 29px 5px rgba(0, 0, 0, 0.75);
+}
+
+#character_list {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.character_link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.character_btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+
+#btn_next, 
+#btn_previous,
+#back_to_list {
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #b2b2b2;
+    border: 1px solid #b2b2b2;
+    color: #1a1a1a;
+    font-size: 16px;
+}
+
+#btn_next:hover,
+#btn_previous:hover,
+#back_to_list:hover {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+table, th, td {
+    border: 1px solid #1a1a1a;
+    background-color: #b2b2b2;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+table {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+th, td {
+    padding: 10px 20px;
+    color: #1a1a1a;
+    font-size: 20px;
+}
+
